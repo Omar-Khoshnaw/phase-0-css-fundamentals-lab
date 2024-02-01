@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+color: red;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+  text-align: center;
+  
+}
+
+#featured-property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Optional, to center-align text within the section */
+}
+
+#featured-property figure {
+  margin: 0; /* Remove default margin */
+}
+
+#featured-property img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+#details {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #ce0e0e; /* Optional: Add a background color */
+}
+
+#details div {
+  text-align: center;
+}
+
+#details h3 {
+  color: #333; /* Optional: Customize heading color */
+}
+
+#details a {
+  text-decoration: none;
+  color: #0077cc; /* Optional: Customize link color */
+}
